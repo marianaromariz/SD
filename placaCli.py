@@ -9,8 +9,8 @@ if (len(placa) ==7):
 	s.connect(("192.168.0.20",8727))
 	s.send(meusbytes)
 	data = s.recv(1024)
-	print ("PLACA "+data.decode("utf-8"))
+	print ("STATUS: PLACA "+data.decode("utf-8"))
 	s.close()
 else:
-	print("Digite uma placa de 7 caracteres...")
+	print("!!! ERRO !!! A placa deve conter 7 caracteres!")
 

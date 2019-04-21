@@ -2,7 +2,7 @@ from socket import  *
 
 s = socket ()
 
-minhastr = "Sistemas distribuidos e facil!!\r\n"
+minhastr = "Ola mundo"
 print (minhastr)
 meusbytes=str.encode (minhastr, "UTF-8")
 print (meusbytes)

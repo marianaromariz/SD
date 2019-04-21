@@ -10,8 +10,8 @@ def valida_placa(placa):
 					if((ord(placa_m[4])>=65) and (ord(placa_m[4]) <= 90)):
 						if((ord(placa_m[5])>=48) and (ord(placa_m[5]) <= 57)):
 							if((ord(placa_m[6])>=48) and (ord(placa_m[6]) <= 57)):
-								return "VALIDA"
-	return "INVALIDA"
+								return "VÁLIDA"
+	return "INVÁLIDA"
 def atende (conn, cliente):
 	while True:
 		data= conn.recv(4096)

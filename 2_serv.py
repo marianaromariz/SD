@@ -14,7 +14,7 @@ def atende (conn, cliente):
 
         print ("Fim da conexao com "+str(cliente))
 
-        conn.close
+        conn.close ()
         
 
 s = socket ()
